@@ -28,7 +28,7 @@ bot.on("ready", () => {
 });
 bot.on("messageCreate", (msg) => {
     if(msg.content === prefix + "ping") {
-        bot.createMessage(msg.channel.id, "Pong!, Test has passed. Running on Eris!");
+        bot.createMessage(msg.channel.id, "Pong!, *blank* ms!");
     }
     if(msg.content === prefix + "help") {
         bot.createMessage(msg.channel.id, {embed: {
