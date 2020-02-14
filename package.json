@@ -1,0 +1,14 @@
+{
+  "name": "aleebot",
+  "version": "4.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/AleeCorp/AleeBot.git",
+  "author": "Andrew Lee <alee14498@protonmail.com>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "eris": "^0.11.2"
+  },
+  "scripts": {
+    "start": "node ./src/index.js"
+  }
+}
